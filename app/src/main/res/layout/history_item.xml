@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+    <!-- 날짜 텍스트 -->
+    <TextView
+        android:id="@+id/textView_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingBottom="8dp"
+        android:textStyle="bold" />
+
+    <!-- 세부사항을 표시할 레이아웃 (초기에는 숨겨짐) -->
+    <LinearLayout
+        android:id="@+id/layout_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+
+        <!-- 세부 텍스트 내용 -->
+        <TextView
+            android:id="@+id/textView_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="세부정보"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:paddingBottom="8dp" />
+
+        <!-- 이미지 -->
+        <ImageView
+            android:id="@+id/imageView_result_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
+
+        <!-- 솔루션 내용 -->
+        <TextView
+            android:id="@+id/textView_solutions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추천 솔루션"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+</LinearLayout>

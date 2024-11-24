@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80540833648",
+    "project_id": "scalping-3455e",
+    "storage_bucket": "scalping-3455e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80540833648:android:18d27baee266e30c9661b5",
+        "android_client_info": {
+          "package_name": "com.example.scalpingex01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeHQtwJ-F2GoWg1Nie-l0AoQhVk02yYqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
