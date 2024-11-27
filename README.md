@@ -1,9 +1,6 @@
 # 🧑‍💻 만두피: 만인의 두피 (MANDOOPI)
 **두피 상태 진단 및 맞춤형 제품 추천 앱**  
 
-시연 영상
-https://drive.google.com/file/d/1lt7VIyq5nXuQEyxjlKaUdOxBg-1LxO1M/view?usp=sharing
-
 ---
 
 ## 📌 **프로젝트 개요**  
@@ -44,3 +41,6 @@ https://drive.google.com/file/d/1lt7VIyq5nXuQEyxjlKaUdOxBg-1LxO1M/view?usp=shari
 - OpenAI API 연결을 통한 사용자 맞춤형 상품 추천 기능 구현
 
 ---
+
+시연 영상
+https://drive.google.com/file/d/1lt7VIyq5nXuQEyxjlKaUdOxBg-1LxO1M/view?usp=sharing
